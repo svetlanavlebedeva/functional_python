@@ -1,18 +1,18 @@
 # # Позиционные, обязательные
-# def positional_args(a, b, c):
-#     print(f"a = {a}, b = {b}, c = {c}")
-#
-#
-# positional_args(1, 2, "some")
+def positional_args(a, b, c):
+    print(f"a = {a}, b = {b}, c = {c}")
+
+
+positional_args(1, 2, "some")
 
 
 # Именованные (имеющие значения по умолчанию)
-# def named_args(a, b, c="some"):
-#     print(f"a = {a}, b = {b}, c = {c}")
-#
-#
-# named_args(a=5, b=10)
-# named_args(a=5, b=10)
+def named_args(a, b, c="some"):
+    print(f"a = {a}, b = {b}, c = {c}")
+
+
+named_args(a=5, b=10)
+named_args(a=5, b=10)
 
 
 def func_args(*args):

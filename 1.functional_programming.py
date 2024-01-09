@@ -10,4 +10,5 @@ def main():
     print(square(calc_sum(2, 3)))
 
 
-main()
+if __name__ == "__main__":
+    main()

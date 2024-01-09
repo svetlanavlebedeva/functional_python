@@ -1,9 +1,7 @@
 x = 100
 
 
-def change_var():
-    print(x)
-    global x
+def change_var(x=None):
     x = 5
     print(x)
 
